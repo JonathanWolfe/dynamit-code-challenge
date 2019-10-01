@@ -1,0 +1,32 @@
+{
+  "name": "dynamit_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ./js",
+    "stylelint": "stylelint ./css --fix",
+    "lint": "npm run eslint && npm run stylelint",
+    "postcss": "postcss ./css -r",
+    "watch": "postcss ./css -r -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browsers": [
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "postcss": "^7.0.18",
+    "postcss-cli": "^6.1.3",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-reporter": "^6.0.1",
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0"
+  }
+}
