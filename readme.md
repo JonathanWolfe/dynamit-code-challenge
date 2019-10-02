@@ -13,3 +13,9 @@ side-by-side; for 769 pixels and up, they get the design as provided;
 I think I might have technically spent more time setting up the repo and tools than I did
 actually making the page, but not using `stylelint` and `postcss` is a bigger sin than the
 initial setup costs.
+
+# Usage
+
+- `npm run postcss`: Process css, adding any prefixes as needed
+- `npm run stylelint`: Lint the output and also sort the css properties into a nice order
+- `npm run server`: Start a server and serve up the index page
