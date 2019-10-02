@@ -1,0 +1,15 @@
+{
+	"files.exclude": {
+		"**/.git*": true,
+		"**/node_modules": true,
+		"*.config.js": true,
+		".editorconfig": true,
+		".eslintrc": true,
+		"404.html": true,
+		"LICENSE.txt": true,
+		"css/normalize.css": true,
+		"favicon.ico": true,
+		"icon.png": true,
+		"package-lock.json": true
+	},
+}
